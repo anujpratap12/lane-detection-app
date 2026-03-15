@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+
+        <!-- Background color -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+
+        <!-- Customizations for buttons, text, etc. -->
+        <item name="buttonStyle">@style/CustomButton</item>
+        <item name="textAppearanceHeadline6">@style/CustomHeadline</item>
+        <item name="textAppearanceBody1">@style/CustomBodyText</item>
+    </style>
+
+    <!-- Button customization -->
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/primaryColor</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <!-- Headline customization -->
+    <style name="CustomHeadline" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Body text customization -->
+    <style name="CustomBodyText" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Echallan</string>
+    <string name="vehicle_number_hint">Enter Vehicle Number</string>
+    <string name="phone_number_hint">Enter Phone Number</string>
+</resources>
+
+
+
