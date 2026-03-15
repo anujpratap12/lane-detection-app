@@ -1,31 +1,104 @@
 # Lane Detection Android App
 
-## Overview
-This project is an Android application that performs lane detection using computer vision techniques. The application integrates OpenCV with Android to detect road lane markings from camera frames.
+An Android application that performs real-time lane detection using computer vision techniques with OpenCV.  
+The application processes camera frames, detects road lane boundaries, and highlights them to demonstrate how lane detection works in autonomous driving systems.
 
-## Technologies Used
-- Kotlin
-- Android Studio
-- OpenCV
-- Computer Vision
+---
+
+## Overview
+
+Lane detection is an important component of Advanced Driver Assistance Systems (ADAS) used in modern vehicles.  
+This project demonstrates how computer vision techniques can be implemented on Android devices to detect road lanes in real time.
+
+The application uses OpenCV to process camera frames, perform edge detection, and identify lane markings on the road.
+
+---
 
 ## Features
-- Lane detection using OpenCV
-- Real-time image processing
-- Edge detection and lane highlighting
-- Android mobile interface
+
+- Real-time lane detection from camera input
+- Edge detection using OpenCV
+- Lane line detection and visualization
+- Android-based implementation
+- Lightweight mobile computer vision application
+
+---
+
+## Tech Stack
+
+- Android Studio
+- Java
+- OpenCV
+- Computer Vision
+- Android SDK
+- Gradle
+
+---
 
 ## Project Structure
-app/ → Android application source code  
-openCV/ → OpenCV integration  
-gradle/ → build system files  
 
-## How to Run
+lane-detection-app  
+│  
+├── app/  
+│   └── src/main  
+│       ├── java  
+│       ├── res  
+│       └── AndroidManifest.xml  
+│  
+├── gradle/  
+├── .gitignore  
+├── build.gradle.kts  
+├── gradle.properties  
+├── gradlew  
+├── gradlew.bat  
+└── settings.gradle.kts  
+
+---
+
+## Setup Instructions
+
 1. Clone the repository
-2. Open the project in Android Studio
-3. Sync Gradle dependencies
-4. Run the application on an emulator or Android device
+
+git clone https://github.com/anujpratap12/lane-detection-app.git
+
+2. Download the OpenCV Android SDK from the official website
+
+https://opencv.org/releases/
+
+3. Extract the OpenCV SDK and place it inside the project directory.
+
+4. Open the project in Android Studio.
+
+5. Sync Gradle and run the application on an Android device or emulator.
+
+Note: OpenCV SDK is not included in this repository due to large file size.
+
+---
+
+## Applications
+
+- Autonomous driving research
+- Driver assistance systems
+- Computer vision learning projects
+- Real-time image processing on mobile devices
+
+---
+
+## Future Improvements
+
+- Deep learning based lane detection
+- Better detection for curved roads
+- Real-time object detection integration
+- Performance optimization for mobile devices
+
+---
 
 ## Author
+
 Anuj Pratap Singh  
-AI/ML Engineer | Computer Vision
+Final Year Computer Science Student  
+UPES Dehradun  
+
+Interested in Artificial Intelligence, Machine Learning, and Computer Vision.
+
+GitHub: https://github.com/anujpratap12
